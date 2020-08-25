@@ -1,2 +1,2 @@
 # Personal-Assistant
-This is a personal assistant that makes your life easier.
+This is a python based personal assistant that makes your life easier.
