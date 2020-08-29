@@ -20,3 +20,7 @@ voices=engine.getProperty('voices')
 engine.setProperty('rate', 190)
 # engine.setProperty('voice','voices[1].id')
 engine.setProperty('voice',voice_id)
+
+def speak(text):
+    engine.say(text)
+    engine.runAndWait()
