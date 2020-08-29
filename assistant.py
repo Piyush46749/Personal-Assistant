@@ -18,4 +18,5 @@ voice_id = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Tokens\\TTS
 engine=pyttsx3.init('sapi5')
 voices=engine.getProperty('voices')
 engine.setProperty('rate', 190)
-engine.setProperty('voice','voices[1].id')
+# engine.setProperty('voice','voices[1].id')
+engine.setProperty('voice',voice_id)
