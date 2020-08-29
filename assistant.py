@@ -33,3 +33,6 @@ def wishMe():
     elif hour>=12 and hour<18:
         speak("Hello,Good Afternoon")
         print("Hello,Good Afternoon")
+    else:
+        speak("Hello,Good Evening") 
+        print("Hello,Good Evening")
