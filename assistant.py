@@ -6,8 +6,10 @@ import webbrowser
 import os
 import time
 import subprocess
-# from ecapture import ecapture as ec
+from ecapture import ecapture as ec
 import wolframalpha
 import json
 import requests
 from selenium import webdriver
+
+print('Loading your AI personal assistant - Chitti Robot')
