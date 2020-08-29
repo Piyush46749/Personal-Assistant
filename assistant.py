@@ -24,3 +24,9 @@ engine.setProperty('voice',voice_id)
 def speak(text):
     engine.say(text)
     engine.runAndWait()
+
+def wishMe():
+    hour=datetime.datetime.now().hour
+    if hour>=0 and hour<12:
+        speak("Hello,Good Morning")
+        print("Hello,Good Morning")
