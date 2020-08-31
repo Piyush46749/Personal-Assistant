@@ -51,3 +51,6 @@ def takeCommand():
             speak("Pardon me, please say that again")
             return "None"
         return statement
+
+wishMe()
+speak("Your personal assistant Chitti Robot is here to help you")
