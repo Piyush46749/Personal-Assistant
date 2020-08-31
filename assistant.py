@@ -54,3 +54,12 @@ def takeCommand():
 
 wishMe()
 speak("Your personal assistant Chitti Robot is here to help you")
+
+if __name__=='__main__':
+
+
+    while True:
+        speak("How can I help you today?")
+        statement = takeCommand().lower()
+        if statement==0:
+            continue
