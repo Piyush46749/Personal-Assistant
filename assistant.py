@@ -36,3 +36,9 @@ def wishMe():
     else:
         speak("Hello,Good Evening") 
         print("Hello,Good Evening")
+        
+def takeCommand():
+    r=sr.Recognizer()
+    with sr.Microphone() as source:
+        print("Listening...")
+        audio=r.listen(source)
