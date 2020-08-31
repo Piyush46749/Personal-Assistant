@@ -63,3 +63,8 @@ if __name__=='__main__':
         statement = takeCommand().lower()
         if statement==0:
             continue
+
+        if "good bye" in statement or "ok bye" in statement or "stop" in statement or "bye" in statement or "stop" in statement:
+            speak('Okay bye. See you soon.')
+            print('your personal assistant Chitti Robot is shutting down,Good bye')
+            break
