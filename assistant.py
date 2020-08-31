@@ -79,10 +79,10 @@ if __name__=='__main__':
 
         elif 'open youtube' in statement:
             webbrowser.open_new_tab("https://www.youtube.com")
-            speak("youtube is open now")
+            speak("YouTube is open now")
             time.sleep(5)
 
         elif 'open google' in statement:
             webbrowser.open_new_tab("https://www.google.com")
-            speak("Google chrome is open now")
+            speak("Google Chrome is open now")
             time.sleep(5)
