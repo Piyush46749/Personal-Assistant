@@ -86,3 +86,8 @@ if __name__=='__main__':
             webbrowser.open_new_tab("https://www.google.com")
             speak("Google Chrome is open now")
             time.sleep(5)
+
+        elif 'open gmail' in statement:
+            webbrowser.open_new_tab("gmail.com")
+            speak("Google Mail is open now")
+            time.sleep(5)
