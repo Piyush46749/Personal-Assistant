@@ -112,3 +112,9 @@ if __name__=='__main__':
                       str(current_humidiy) +
                       "\n description  " +
                       str(weather_description))
+                print(" Temperature in kelvin unit = " +
+                      str(current_temperature) +
+                      "\n humidity (in percentage) = " +
+                      str(current_humidiy) +
+                      "\n description = " +
+                      str(weather_description))
