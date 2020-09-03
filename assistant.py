@@ -97,3 +97,6 @@ if __name__=='__main__':
             base_url="https://api.openweathermap.org/data/2.5/weather?"
             speak("whats the city name")
             city_name=takeCommand()
+            complete_url=base_url+"appid="+api_key+"&q="+city_name
+            response = requests.get(complete_url)
+            x=response.json()
