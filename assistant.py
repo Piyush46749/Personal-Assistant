@@ -118,3 +118,12 @@ if __name__=='__main__':
                       str(current_humidiy) +
                       "\n description = " +
                       str(weather_description))
+
+            else:
+                speak(" City Not Found ")
+
+
+
+        elif 'time' in statement:
+            strTime=datetime.datetime.now().strftime("%H:%M:%S")
+            speak(f"the time is {strTime}")
