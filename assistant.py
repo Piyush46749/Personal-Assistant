@@ -127,3 +127,8 @@ if __name__=='__main__':
         elif 'time' in statement:
             strTime=datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"the time is {strTime}")
+
+        elif 'who are you' in statement or 'what can you do' in statement:
+            speak('I am Chitti Robot version 1 point O your persoanl assistant. I am programmed to make your life easier and perform tasks such as, '
+                  'opening youtube, google chrome, gmail and stackoverflow ,predict time,take a photo,search wikipedia,predict weather' 
+                  'in different cities , get top headline news from times of india and you can ask me computational or geographical questions too!')
