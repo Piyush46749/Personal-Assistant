@@ -140,3 +140,8 @@ if __name__=='__main__':
         elif "open stack overflow" in statement:
             webbrowser.open_new_tab("https://stackoverflow.com/")
             speak("Here is stackoverflow")
+
+        elif 'news' in statement:
+            news = webbrowser.open_new_tab("https://timesofindia.indiatimes.com/home/headlines")
+            speak('Here are some headlines from the Times of India, Happy reading')
+            time.sleep(6)
