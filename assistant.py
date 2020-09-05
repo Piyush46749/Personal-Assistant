@@ -144,4 +144,4 @@ if __name__=='__main__':
         elif 'news' in statement:
             news = webbrowser.open_new_tab("https://timesofindia.indiatimes.com/home/headlines")
             speak('Here are some headlines from the Times of India, Happy reading')
-            time.sleep(6)
+            time.sleep(5)
