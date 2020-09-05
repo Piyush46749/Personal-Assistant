@@ -132,3 +132,7 @@ if __name__=='__main__':
             speak('I am Chitti Robot version 1 point O your persoanl assistant. I am programmed to make your life easier and perform tasks such as, '
                   'opening youtube, google chrome, gmail and stackoverflow ,predict time,take a photo,search wikipedia,predict weather' 
                   'in different cities , get top headline news from times of india and you can ask me computational or geographical questions too!')
+
+        elif "who made you" in statement or "who created you" in statement or "who discovered you" in statement or "who developed you" in statement or "you were discovered by whom" in statement or "you were developed by whom" in statement or "you were built by whom" in statement:
+            speak("I was built by Piyush")
+            print("I was built by Piyush")
