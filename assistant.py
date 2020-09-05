@@ -6,7 +6,7 @@ import webbrowser
 import os
 import time
 import subprocess
-from ecapture import ecapture as ec
+# from ecapture import ecapture as ec
 import wolframalpha
 import json
 import requests
@@ -66,7 +66,7 @@ if __name__=='__main__':
 
         if "good bye" in statement or "ok bye" in statement or "stop" in statement or "bye" in statement or "stop" in statement:
             speak('Okay bye. See you soon.')
-            print('your personal assistant Chitti Robot is shutting down,Good bye')
+            print('your personal assistant Chitti Robot is shutting down, Good bye')
             break
 
         if 'wikipedia' in statement:
@@ -146,5 +146,5 @@ if __name__=='__main__':
             speak('Here are some headlines from the Times of India, Happy reading')
             time.sleep(5)
 
-        elif "camera" in statement or "take a photo" in statement:
-            ec.capture(0,"robo camera","img.jpg")
+        # elif "camera" in statement or "take a photo" in statement:
+        #     ec.capture(0,"robo camera","img.jpg")
