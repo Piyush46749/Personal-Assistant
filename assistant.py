@@ -152,4 +152,4 @@ if __name__=='__main__':
         elif 'search'  in statement:
             statement = statement.replace("search", "")
             webbrowser.open_new_tab(statement)
-            time.sleep(5)
+            time.sleep(4)
