@@ -148,3 +148,8 @@ if __name__=='__main__':
 
         # elif "camera" in statement or "take a photo" in statement:
         #     ec.capture(0,"robo camera","img.jpg")
+
+        elif 'search'  in statement:
+            statement = statement.replace("search", "")
+            webbrowser.open_new_tab(statement)
+            time.sleep(5)
