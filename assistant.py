@@ -153,3 +153,13 @@ if __name__=='__main__':
             statement = statement.replace("search", "")
             webbrowser.open_new_tab(statement)
             time.sleep(4)
+
+        elif 'calculate' in statement:
+            speak('I can answer to computational and geographical questions and what question do you want to ask now')
+            question=takeCommand()
+            app_id="R2K75H-7ELALHR35X"
+            client = wolframalpha.Client('R2K75H-7ELALHR35X')
+            res = client.query(question)
+            answer = next(res.results).text
+            speak(answer)
+            print(answer)
