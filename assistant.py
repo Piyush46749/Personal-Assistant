@@ -165,5 +165,5 @@ if __name__=='__main__':
             print(answer)
 
         elif "log off" in statement or "sign out" in statement:
-            speak("Ok , your pc will log off in 10 sec make sure you exit from all applications")
+            speak("Ok , your pc will log off in 10 seconds. Make sure you close all of your applications")
             subprocess.call(["shutdown", "/l"])
