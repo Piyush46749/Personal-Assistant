@@ -28,14 +28,14 @@ def speak(text):
 def wishMe():
     hour=datetime.datetime.now().hour
     if hour>=0 and hour<12:
-        speak("Hello,Good Morning")
-        print("Hello,Good Morning")
+        speak("Hello, Good Morning.")
+        print("Hello, Good Morning.")
     elif hour>=12 and hour<18:
-        speak("Hello,Good Afternoon")
-        print("Hello,Good Afternoon")
+        speak("Hello, Good Afternoon.")
+        print("Hello, Good Afternoon.")
     else:
-        speak("Hello,Good Evening") 
-        print("Hello,Good Evening")
+        speak("Hello, Good Evening.") 
+        print("Hello, Good Evening.")
 
 def takeCommand():
     r=sr.Recognizer()
@@ -53,7 +53,7 @@ def takeCommand():
         return statement
 
 wishMe()
-speak("Your personal assistant Chitti Robot is here to help you")
+speak("Your personal assistant Chitti Robot is here to help you!")
 
 if __name__=='__main__':
 
@@ -66,7 +66,7 @@ if __name__=='__main__':
 
         if "good bye" in statement or "ok bye" in statement or "stop" in statement or "bye" in statement or "stop" in statement:
             speak('Okay bye. See you soon.')
-            print('your personal assistant Chitti Robot is shutting down, Good bye')
+            print('Your personal assistant Chitti Robot is shutting down, good bye!')
             break
 
         if 'wikipedia' in statement:
@@ -79,17 +79,17 @@ if __name__=='__main__':
 
         elif 'open youtube' in statement:
             webbrowser.open_new_tab("https://www.youtube.com")
-            speak("YouTube is open now")
+            speak("YouTube is open now.")
             time.sleep(4)
 
         elif 'open google' in statement:
             webbrowser.open_new_tab("https://www.google.com")
-            speak("Google Chrome is open now")
+            speak("Google Chrome is open now.")
             time.sleep(4)
 
         elif 'open gmail' in statement:
             webbrowser.open_new_tab("gmail.com")
-            speak("Google Mail is open now")
+            speak("Google Mail is open now.")
             time.sleep(4)
 
         elif "weather" in statement:
