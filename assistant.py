@@ -123,7 +123,6 @@ if __name__=='__main__':
                 speak(" City Not Found ")
 
 
-
         elif 'time' in statement:
             strTime=datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"the time is {strTime}")
@@ -155,7 +154,7 @@ if __name__=='__main__':
             time.sleep(4)
 
         elif 'calculate' in statement:
-            speak('I can answer to computational and geographical questions. What question do you want to ask now?')
+            speak('I can answer to computational and geographical questions. What question do you have for me?')
             question=takeCommand()
             app_id="R2K75H-7ELALHR35X"
             client = wolframalpha.Client('R2K75H-7ELALHR35X')
