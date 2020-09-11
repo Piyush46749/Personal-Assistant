@@ -142,7 +142,7 @@ if __name__=='__main__':
 
         elif 'news' in statement:
             news = webbrowser.open_new_tab("https://timesofindia.indiatimes.com/home/headlines")
-            speak('Here are some headlines from the Times of India, Happy reading')
+            speak('Here are some headlines from the Times of India, enjoy your reading')
             time.sleep(5)
 
         # elif "camera" in statement or "take a photo" in statement:
@@ -164,7 +164,7 @@ if __name__=='__main__':
             print(answer)
 
         elif "log off" in statement or "sign out" in statement:
-            speak("Ok , your pc will log off in 10 seconds. Make sure you close all of your applications")
+            speak("Okay , your system will log off in 10 seconds. Make sure you close all of your applications.")
             subprocess.call(["shutdown", "/l"])
 
 time.sleep(3)
